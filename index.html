@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone paper Scissor game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p class="heading">Rock Paper Scissor</p>
+        <div class="container2">
+            <div class="box1 box" id="b1" onclick="rps('r')">
+                <img src="rock.jpg" alt="" width="232px" height="217px" >
+            </div>
+            <div class="box2 box" id="b2" onclick="rps('p')">
+                <img src="paper.jpg" alt="" width="232px" height="217px" >
+            </div>
+            <div class="box3 box" id="b3" onclick="rps('s')">
+                <img src="scissor.jpg" alt="" width="232px" height="217px" >
+            </div>
+        </div>
+        <div class="out" id="output" >
+            <p id="para"></p> <p id="para2">
+
+            </p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
