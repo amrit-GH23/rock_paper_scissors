@@ -42,8 +42,8 @@ The game is built using **HTML, CSS, and JavaScript** and runs in a web browser.
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/your-username/rock-paper-scissors.git
-   cd rock-paper-scissors
+   git clone https://github.com/amrit-GH23/rock_paper_scissors.git
+   cd rock_paper_scissors
    ```
 2. **Open the Game**
    - Open `index.html` in any modern web browser.
